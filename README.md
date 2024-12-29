@@ -1,4 +1,4 @@
-# Social-Media-Dataset
+# Social-Media-MultiSent-Dataset(SM-MSD)
 This repository contains dataset for the papaer "A Social Media Dataset and H-GNN Based Contrastive Learning Scheme for Multimodal Sentiment Analysis"
 
 We crawled over 100w tweets and used the VGG19 pre-training model to screen out non-emoji pictures, 95% of which were coarsely screened. Then manually filter, retain the graphic dual-modal data, about 40% removed. Next, complex data processing is performed, using tools such as regular expressions to extract emojis from the text, and the embedded text in the emoji is obtained using the PaddleOCR platform and manual correction. So far, all four modal data have been obtained.
